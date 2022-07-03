@@ -2,7 +2,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  border: 0px;
   font-size: 100%;
+  font-weight: normal;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 /* Paramentros en general */
 body {
@@ -16,35 +21,35 @@ body {
 }
 /* Cabecera */
 #cabecera {
-  height: 20vh;
+  height: 18vh;
   width: 100vw;
   position: fixed;
 }
 /* Titulo principal */
 #titulo img {
   float: left;
-  height: 10vh;
-  width: 10vw;
+  height: 13vh;
+  width: 13vh;
 }
 #titulo {
   background-color: black;
-  height: 10vh;
+  height: 13vh;
   width: 100vw;
   margin: auto;
-  line-height: 10vh;
+  line-height: 16vh;
 }
 #titulo p {
   text-align: left;
-  font-size: 6vh;
+  font-size: 2vh;
 }
 /* Menú de Navegacion */
 #menu {
   background-color: rgb(22, 19, 19);
-  height: 8vh;
+  height: 5vh;
   width: 100vw;
 }
 #menu ul {
-  line-height: 8vh;
+  line-height: 5vh;
 }
 #menu ul li {
   display: inline-block;
@@ -52,20 +57,30 @@ body {
 #menu ul li a {
   color: white;
   display: block;
-  padding: 0vh 6vw;
+  padding: 0vh 4vw;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 2vh;
 }
 #menu ul li a:hover {
   background-color: white;
   color: black;
+  font-weight: bold;
 }
+/* Contenido de la pagina (main) */
 main {
-  padding-top: 20vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  display: inline-block;
+  width: 100vw;
+  display: flex;
 }
 #contenido {
-  background-color: rgb(0, 0, 0);
+  margin-top: 20vh;
+  margin-left: 2vw;
+  float: left;
+  width: 70vw;
+}
+#contenido section {
+  background-color: rgb(24, 0, 21);
   margin: auto;
 }
 #contenido h1 {
@@ -80,7 +95,17 @@ main {
   font-size: 2vh;
   padding: 2vh 1vw;
 }
+#extra {
+  width: 26vw;
+  margin-top: 20vh;
+  margin-right: 2vw;
+  float: left;
+  background-color: black;
+}
+#extra aside {
+  background-color: black;
+}
 footer {
-  height: 100vh;
+  width: 100vw;
 }
 /**/
