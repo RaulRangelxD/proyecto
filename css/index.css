@@ -10,8 +10,14 @@ body {
   background-color: rgba(51, 51, 51, 0.116);
   color: white;
 }
+/* Cabecera */
+#cabecera {
+  height: 20vh;
+  width: 100vw;
+  position: fixed;
+}
 /* Titulo principal */
-h1 {
+#titulo {
   text-align: center;
   background-color: black;
   height: 10vh;
@@ -22,10 +28,11 @@ h1 {
 /* Menú de Navegacion */
 #menu {
   background-color: rgb(22, 19, 19);
+  height: 8vh;
+  width: 100vw;
 }
 #menu ul {
-  margin: 0px;
-  padding: 0px;
+  line-height: 8vh;
 }
 #menu ul li {
   display: inline-block;
@@ -33,20 +40,20 @@ h1 {
 #menu ul li a {
   color: white;
   display: block;
-  padding: 1vw 5vh;
+  padding: 0vh 10vw;
   text-decoration: none;
 }
 #menu ul li a:hover {
   background-color: white;
   color: black;
 }
-#divisor {
-  height: 2vh;
-  width: 100vw;
+main {
+  padding-top: 20vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 #contenido {
   background-color: rgb(0, 0, 0);
-  width: 98vw;
   margin: auto;
 }
 /**/
