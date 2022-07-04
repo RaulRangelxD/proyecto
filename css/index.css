@@ -106,8 +106,8 @@ main {
   font-size: 2vh;
 }
 footer {
+  margin-top: 2vh;
   background-color: rgb(40, 1, 50);
   width: 100vw;
-  height: 100vh;
 }
 /**/
