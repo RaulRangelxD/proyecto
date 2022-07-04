@@ -17,7 +17,7 @@ body {
   background-position: left top;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
+  color: rgb(231, 231, 231);
 }
 /* Cabecera */
 #cabecera {
@@ -32,7 +32,7 @@ body {
   width: 13vh;
 }
 #titulo {
-  background-color: rgb(22, 28, 38);
+  background-color: rgb(22, 29, 38);
   height: 13vh;
   width: 100vw;
   margin: auto;
@@ -40,6 +40,7 @@ body {
 }
 #titulo p {
   text-align: left;
+  color: rgb(231, 231, 231);
   font-size: 2vh;
 }
 /* Menú de Navegacion */
@@ -55,7 +56,7 @@ body {
   display: inline-block;
 }
 #menu ul li a {
-  color: white;
+  color: rgb(43, 196, 95);
   display: block;
   padding: 0vh 4vw;
   text-decoration: none;
@@ -63,8 +64,8 @@ body {
   font-size: 2vh;
 }
 #menu ul li a:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(231, 231, 231);
+  color: rgb(22, 28, 38);
   font-weight: bold;
 }
 /* Contenido de la pagina (main) */
@@ -80,20 +81,29 @@ main {
   width: 70vw;
 }
 #contenido section {
-  background-color: rgb(27, 26, 48);
+  background-color: rgb(28, 27, 49);
   margin: auto;
 }
 #contenido h1 {
   font-size: 3vh;
-  padding: 4vh 1vw;
+  color: rgb(231, 231, 231);
+  padding: 0 1vw;
+  padding-top: 4vh;
 }
 #contenido h2 {
   font-size: 2vh;
-  padding: 2vh 1vw;
+  color: rgb(43, 196, 95);
+  padding: 0 1vw;
+  padding-top: 4vh;
 }
 #contenido p {
   font-size: 2vh;
-  padding: 2vh 1vw;
+  color: rgb(231, 231, 231);
+  padding: 0 1vw;
+  padding-top: 2vh;
+}
+#contenido p span {
+  color: red;
 }
 #extra {
   width: 26vw;
@@ -107,7 +117,8 @@ main {
 }
 footer {
   margin-top: 2vh;
-  background-color: rgb(40, 1, 50);
+  color: rgb(255, 196, 0);
+  background-color: rgb(40, 0, 54);
   width: 100vw;
 }
 /**/
