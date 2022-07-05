@@ -103,7 +103,8 @@ main {
   padding-top: 2vh;
 }
 #contenido p span {
-  color: red;
+  color: rgb(43, 196, 95);
+  font-weight: bold;
 }
 #extra {
   width: 26vw;
