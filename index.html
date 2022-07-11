@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Inicio</title>
   </head>
   <body>
     <header>
-      <nav id="menu" class="navbar fixed-top navbar-expand-lg p-0">
+      <nav id="menu" class="navbar navbar-expand-lg p-0">
         <div class="container-fluid">
-          <a class="navbar-brand p-0" href="#">
-            <img src="/images/perfil.jpg" alt="icono" />
+          <a class="navbar-brand fs-4" href="#">
+            <img src="images/perfil.jpg" alt="icono" />
             <span>Proyecto Sociotecnológico I</span>
           </a>
           <button
@@ -30,26 +30,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a
+                  class="nav-link active fs-6"
+                  aria-current="page"
+                  href="index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="hardware.html">Hardware</a>
+                <a class="nav-link fs-6" href="hardware.html">Hardware</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="software.html">Software</a>
+                <a class="nav-link fs-6" href="software.html">Software</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <div id="contenido">
-        <section>
-          <h1>Mantenimiento de computadoras</h1>
-          <p>
+    <main class="container-fluid p-0">
+      <div class="row m-4">
+        <section id="contenido" class="col-9">
+          <h1 class="fs-4 pt-3">Mantenimiento de computadoras</h1>
+          <p class="fs-6 pt-3">
             El <span>mantenimiento</span> de una <span>computadora</span> tiene
             muchos beneficios para el usuario de esta, en el hardware es muy
             importante hacer su respectivo mantenimiento a cada componente para
@@ -59,8 +62,10 @@
             de esta manera el equipo funcione de la manera mas optima.
           </p>
           <article>
-            <h2>¿Que es mantenimiento preventivo y correctivo?</h2>
-            <p>
+            <h2 class="fs-5 pt-3">
+              ¿Que es mantenimiento preventivo y correctivo?
+            </h2>
+            <p class="fs-6 pt-2">
               El mantenimiento de una computadora tiene muchos beneficios para
               el usuario de esta, en el hardware es muy importante hacer su
               respectivo mantenimiento a cada componente para el optimo
@@ -71,8 +76,10 @@
             </p>
           </article>
           <article>
-            <h2>¿Que es mantenimiento preventivo y correctivo?</h2>
-            <p>
+            <h2 class="fs-5 pt-3">
+              ¿Que es mantenimiento preventivo y correctivo?
+            </h2>
+            <p class="fs-6 pt-2">
               El mantenimiento de una computadora tiene muchos beneficios para
               el usuario de esta, en el hardware es muy importante hacer su
               respectivo mantenimiento a cada componente para el optimo
@@ -83,8 +90,10 @@
             </p>
           </article>
           <article>
-            <h2>¿Que es mantenimiento preventivo y correctivo?</h2>
-            <p>
+            <h2 class="fs-5 pt-3">
+              ¿Que es mantenimiento preventivo y correctivo?
+            </h2>
+            <p class="fs-6 pt-2">
               El mantenimiento de una computadora tiene muchos beneficios para
               el usuario de esta, en el hardware es muy importante hacer su
               respectivo mantenimiento a cada componente para el optimo
@@ -95,14 +104,20 @@
             </p>
           </article>
         </section>
-      </div>
-      <div id="extra">
-        <aside>
-          <p>Aqui irán accesos a los videos y etc</p>
-        </aside>
+        <div id="extra" class="col-3">
+          <aside>
+            <p>Aqui irán accesos a los videos y etc</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              amet similique et totam architecto itaque! Dolorem, similique est!
+              Magni saepe quidem alias assumenda officia quam nisi
+              necessitatibus animi totam non!
+            </p>
+          </aside>
+        </div>
       </div>
     </main>
-    <footer>
+    <footer class="container-fluid p-0 fs-5">
       Team Code
       <br />
       Raul Rangel 27.462.694
