@@ -1,0 +1,115 @@
+/* Quitar valores por defecto */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  font-weight: normal;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* Paramentros en general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/images/index/mh.jpg");
+  background-color: rgba(180, 12, 12, 0.425);
+  background-position: left top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+/* Cabecera */
+#cabecera {
+  height: 18vh;
+  width: 100vw;
+  position: fixed;
+}
+/* Titulo principal */
+#titulo img {
+  float: left;
+  height: 13vh;
+  width: 13vh;
+}
+#titulo {
+  background-color: black;
+  height: 13vh;
+  width: 100vw;
+  margin: auto;
+  line-height: 16vh;
+}
+#titulo p {
+  text-align: left;
+  font-size: 2vh;
+}
+/* Menú de Navegacion */
+#menu {
+  background-color: rgb(22, 19, 19);
+  height: 5vh;
+  width: 100vw;
+}
+#menu ul {
+  line-height: 5vh;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  color: white;
+  display: block;
+  padding: 0vh 4vw;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2vh;
+}
+#menu ul li a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+/* Contenido de la pagina (main) */
+main {
+  display: inline-block;
+  width: 100vw;
+  display: flex;
+}
+#contenido {
+  margin-top: 20vh;
+  margin-left: 2vw;
+  float: left;
+  width: 70vw;
+}
+#contenido section {
+  background-color: rgb(24, 0, 21);
+  margin: auto;
+}
+#contenido h1 {
+  font-size: 3vh;
+  padding: 4vh 1vw;
+}
+#contenido h2 {
+  font-size: 2vh;
+  padding: 2vh 1vw;
+}
+#contenido h3 {
+  font-size: 2vh;
+  padding: 2vh 1vw;
+}
+#contenido p {
+  font-size: 2vh;
+  padding: 2vh 1vw;
+}
+#extra {
+  width: 26vw;
+  margin-top: 20vh;
+  margin-right: 2vw;
+  float: left;
+  background-color: black;
+}
+#extra aside {
+  background-color: black;
+}
+footer {
+  width: 100vw;
+}
+/**/
