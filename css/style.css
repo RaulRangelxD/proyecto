@@ -14,7 +14,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("../images/bg.jpg");
   background-color: rgba(15, 31, 63);
-  background-position: left top;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   color: rgb(231, 231, 231);
@@ -24,8 +24,8 @@ body {
   background-color: rgb(22, 28, 38);
 }
 #menu img {
-  width: 18vh;
-  height: 18vh;
+  width: 14vh;
+  height: 14vh;
 }
 #menu a {
   color: rgb(231, 231, 231);
@@ -53,6 +53,9 @@ body {
 #contenido p span {
   color: rgb(43, 196, 95);
   font-weight: bold;
+}
+#drop {
+  background-color: rgb(22, 28, 38);
 }
 #extra {
   background-color: rgb(60, 60, 78);
