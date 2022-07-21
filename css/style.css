@@ -44,15 +44,17 @@ body {
 }
 #contenido h1 {
   color: rgb(231, 231, 231);
+  font-weight: bold;
 }
 #contenido h2 {
   color: rgb(231, 231, 231);
+  font-weight: bold;
 }
 #contenido p {
   color: rgb(231, 231, 231);
 }
 #contenido p span {
-  color: rgb(43, 196, 95);
+  color: rgb(43, 84, 196);
   font-weight: bold;
 }
 #drop {
@@ -62,10 +64,11 @@ body {
   background-color: rgb(60, 60, 78);
 }
 #xd {
+  background-color: rgba(22, 28, 38, 0.8);
   color: rgb(231, 231, 231);
 }
 #xd:hover {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231, 231, 0.8);
   color: rgb(22, 28, 38);
 }
 footer {
