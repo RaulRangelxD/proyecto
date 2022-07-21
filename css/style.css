@@ -28,6 +28,7 @@ body {
 }
 #menu ul li a {
   color: rgb(231, 231, 231);
+  font-weight: bold;
 }
 #menu ul li a:hover {
   background-color: rgb(231, 231, 231);
@@ -59,6 +60,13 @@ body {
 }
 #extra {
   background-color: rgb(60, 60, 78);
+}
+#xd {
+  color: rgb(231, 231, 231);
+}
+#xd:hover {
+  background-color: rgb(231, 231, 231);
+  color: rgb(22, 28, 38);
 }
 footer {
   color: rgb(255, 196, 0);
