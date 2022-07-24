@@ -63,6 +63,10 @@ body {
   color: rgb(231, 231, 231);
   font-weight: bold;
 }
+#contenido h3 {
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+}
 #contenido p {
   color: rgb(231, 231, 231);
 }
