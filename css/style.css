@@ -38,6 +38,19 @@ body {
   width: 16vh;
   height: 16vh;
 }
+#register {
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+}
+#register:hover {
+  background-color: rgb(231, 231, 231);
+  color: rgb(22, 28, 38);
+}
+/* Carousel */
+#carousel_text {
+  background-color: rgba(22, 28, 38, 0.8);
+  color: rgb(231, 231, 231);
+}
 /* Contenido de la pagina (main) */
 #contenido {
   background-color: rgb(28, 27, 49);
@@ -75,4 +88,3 @@ footer {
   color: rgb(231, 231, 231);
   background-color: rgb(28, 27, 49);
 }
-/**/

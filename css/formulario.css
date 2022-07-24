@@ -1,0 +1,39 @@
+/* Quitar valores por defecto */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  font-weight: normal;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* Paramentros en general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/bg.png");
+  background-color: rgba(15, 31, 63);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(231, 231, 231);
+}
+/* Formulario */
+#contenido {
+  background-color: rgb(28, 27, 49);
+}
+h1 {
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+}
+label {
+  color: rgb(231, 231, 231);
+}
+#boton {
+  color: rgb(231, 231, 231);
+}
+#boton:hover {
+  background-color: rgb(231, 231, 231);
+  color: rgb(22, 28, 38);
+}
