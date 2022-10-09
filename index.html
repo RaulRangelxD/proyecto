@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <!-- Head (titulo y enlaces) -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,16 +9,21 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Inicio</title>
   </head>
+  <!-- Body (cuerpo de toda la pagina) -->
   <body>
+    <!-- Header (barra de navegacion) -->
     <header>
+      <!-- Barra de navegacion -->
       <nav id="menu" class="navbar navbar-expand-md p-0 bg-transparent">
         <div class="container-fluid">
+          <!-- Logo -->
           <a
             class="navbar-brand pb-0 fs-4 align-self-baseline"
             href="index.html"
           >
             <img id="logo" src="images/Logotipo.png" alt="icono" />
           </a>
+          <!-- Boton que colapsa la barra de navegacion -->
           <button
             class="navbar-toggler p-0"
             type="button"
@@ -29,6 +35,7 @@
           >
             <span class="navbar-toggler-icon rounded"></span>
           </button>
+          <!-- Links de barra de navegacion -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -39,11 +46,33 @@
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="hardware.html">Hardware</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="software.html">Software</a>
+              <li class="nav-item dropdown fs-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Informacion
+                </a>
+                <ul
+                  id="drop"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item fs-5" href="hardware.html"
+                      >Hardware</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item fs-5" ref="software.html"
+                      >Software</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item dropdown fs-5">
                 <a
@@ -74,6 +103,9 @@
                 </ul>
               </li>
               <li class="nav-item">
+                <a class="nav-link fs-5" href="comunidad.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link fs-5" href="formulario.html"
                   >Iniciar Sesión</a
                 >
@@ -83,6 +115,7 @@
         </div>
       </nav>
     </header>
+    <!-- Carrousel (imagenes interactivas) -->
     <div class="d-flex m-4 mt-2 mt-md-0 mb-0 justify-content-center">
       <div
         id="carouselExampleDark"
@@ -145,8 +178,11 @@
         </div>
       </div>
     </div>
+    <!-- Main (todo el contenido de la pagina) -->
     <main class="container-fluid p-0">
+      <!-- Row (Divisor por columnas) -->
       <div class="row m-4 mt-2 mt-md-3 justify-content-center">
+        <!-- Contenido en general -->
         <section id="contenido" class="col-12 col-md-7 p-3 rounded">
           <h1 class="fs-4 pt-3 text-center">¡Bienvenido a Hextech Studios!</h1>
           <p class="fs-6 pt-3">
@@ -317,15 +353,17 @@
         </section>
       </div>
     </main>
-    <footer class="container-fluid p-0 fs-6 text-end">
+    <!-- Footer (Informacion del equipo, etc) -->
+    <footer class="container-fluid p-0 fs-6 text-center">
       © Hextech Studios, 2022
       <br />
       Raúl Rangel – V-27.462.694
       <br />
       Anthonny Cárdenas – V-30.817.468
       <br />
-      Jeremi Rodriguez – V-31.890.805
+      Jeremi Rodríguez – V-31.890.805
     </footer>
+    <!-- JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
