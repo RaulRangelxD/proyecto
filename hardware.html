@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Hardware</title>
   </head>
+  <!-- Body (cuerpo de toda la pagina) -->
   <body>
+    <!-- Header (barra de navegacion) -->
     <header>
       <nav id="menu" class="navbar navbar-expand-md p-0 bg-transparent">
         <div class="container-fluid">
@@ -28,7 +30,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon rounded"></span>
+            <span class="navbar-toggler-icon rounded bg-dark"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -84,6 +86,7 @@
         </div>
       </nav>
     </header>
+    <!-- Imagen principal -->
     <div class="d-flex m-4 mt-2 mt-md-0 mb-0 justify-content-center">
       <img
         class="img-fluid col-12 col-md-8 p-0 rounded-3"
@@ -91,204 +94,235 @@
         alt="principal"
       />
     </div>
+    <!-- Main (todo el contenido de la pagina) -->
     <main class="container-fluid p-0">
+      <!-- Row (Divisor por columnas) -->
       <div class="row m-4 mt-2 mt-md-3 justify-content-center">
+        <!-- Contenido en general -->
         <section id="contenido" class="col-12 col-md-7 p-3 rounded">
-          <h1 class="fs-4 pt-3 text-center">Hardware</h1>
-          <p class="fs-6 pt-2">
-            A continuación te explicaremos qué es el hardware, ejemplos y su
-            relación con el software:
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Hardware.png"
-              alt="hardware"
-            />
-          </div>
-          <h2 class="fs-5">¿Qué es el hardware?:</h2>
-          <p class="fs-6 pt-3">
-            En las áreas de computación e informática, el término
-            <span>hardware</span> se le atribuye a, de manera resumida y en
-            términos básicos, todo lo que constituye únicamente a la
-            <span>parte física y tangible</span> de una computadora o sistema
-            informático, tanto externa como interna.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Que-es.jpg"
-              alt="hardware"
-            />
-          </div>
-          <p class="fs-6">
-            En español, podríamos utilizar términos como: <span>equipo</span>,
-            <span>equipo informático</span>, <span>componentes</span>, entre
-            otros. Aunque, en el contexto de la informática, se considera una
-            buena costumbre utilizar el término en inglés "hardware" para
-            referirnos a
-            <span
-              >todos los componentes que construyen la estructura física</span
-            >
-            de un ordenador.
-          </p>
-          <h2 id="partes" class="fs-5 pt-3">Ejemplos de hardware:</h2>
-          <p class="fs-6 pt-2">
-            Algunos <span>ejemplos de hardware</span> que vas a poder encontrar
-            en los ordenadores modernos son:
-          </p>
-          <h3 class="fs-5 pt-3">▸ Procesador:</h3>
-          <p class="fs-6 pt-2">
-            El <span>procesador</span> o <span>CPU</span>, se trata de un chip
-            encapsulado, y, se le puede considerar el <span>cerebro</span> de la
-            máquina, dado que procesa todo lo que ocurre en la computadora y
-            ejecuta todas sus acciones. Por esto mismo, podemos decir, sin temor
-            a equivocarnos, que el procesador es el componente
-            <span>más importante</span> del computador.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-50"
-              src="images/Procesador.png"
-              alt="procesador"
-            />
-          </div>
-          <p class="fs-6">
-            En caso de que no haya quedado claro: básicamente, cuanto más rápido
-            sea el procesador, a mayor velocidad se ejecutarán las órdenes y
-            acciones que se le indiquen a a la computadora.
-          </p>
-          <p class="fs-6 pt-2">
-            Las compañías AMD e Intel son las principales fabricantes de
-            procesadores.
-          </p>
-          <h3 class="fs-5 pt-3">▸ Memoria RAM:</h3>
-          <p class="fs-6 pt-2">
-            La <span>memoria RAM</span> es una memoria formada por un conjunto
-            de chips que almacenan informacióna a la cual el procesador puede
-            acceder rápidamente. Las siglas "RAM" significan “<span
-              >Random Access Memory</span
-            >” traducido al español es “<span>Memoria de Acceso Aleatorio</span
-            >”.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Memoria RAM.jpg"
-              alt="RAM"
-            />
-          </div>
-          <p class="fs-6">
-            Se le denomina "memoria de acceso aleatorio" porque puede
-            <span
-              >leer o escribir información ubicada en cualquier posición</span
-            >, sin necesidad de seguir un orden correlativo.
-          </p>
-          <p class="fs-6 pt-2">
-            Finalmente, la información de la RAM permanece almacenada
-            <span>temporalmente</span>, es decir, que se pierde cuando se apaga
-            el equipo.
-          </p>
-          <h3 class="fs-5 pt-3">▸ Unidad de almacenamiento:</h3>
-          <p class="fs-6 pt-2">
-            La <span>unidad de almacenamiento</span> es, valga la redundancia,
-            el dispositivo que <span>almacena información</span>. A diferencia
-            de la memoria RAM, la unidad de almacenamiento guarda la información
-            <span>permanentemente</span>.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Unidad de almacenamiento.jpg"
-              alt="almacenamiento"
-            />
-          </div>
-          <p class="fs-6">
-            Existen dos tipos de unidades de almacenamiento: los discos duros
-            (HDD, que viene de Hard Disk Drive) y las unidades de estado sólido
-            (SSD, que viene de Solid State Drive).
-          </p>
-          <h3 class="fs-5 pt-3">▸ Fuente de poder:</h3>
-          <p class="fs-6 pt-2">
-            La <span>fuente de poder</span>,
-            <span>fuente de alimentación</span> o
-            <span>fuente de energía</span> se encarga de recibir la corriente
-            eléctrica alterna para transformarla en corriente continua, y así
-            alimentar a los demás componentes internos de la computadora.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Fuente de poder.jpg"
-              alt="fuente"
-            />
-          </div>
-          <p class="fs-6">
-            La fuente se ocupa, además, de
-            <span>filtrar y distribuir el voltaje</span> que precisan los
-            dispositivos para funcionar, ya que no todos requieren la misma
-            cantidad de voltios.
-          </p>
-          <h3 class="fs-5 pt-3">▸ Placa base:</h3>
-          <p class="fs-6 pt-2">
-            La <span>placa base</span>, <span>tarjeta madre</span> o
-            <span>placa madre</span>, es una
-            <span>tarjeta de circuito impreso</span> a la cual se conectan,
-            mediantes ranuras, los componentes de una computadora.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/Placa base.jpg"
-              alt="placa"
-            />
-          </div>
-          <p class="fs-6 pt-2">
-            La <span>placa base</span> se encarga de establecer una comunicación
-            entre los componentes de un ordenador(<span>CPU</span>,
-            <span>RAM</span>, <span>tarjeta gráfica</span>) y además los
-            periféricos (mouse, teclado, monitor), etc.
-          </p>
-          <p class="fs-6 pt-2">
-            En general, las <span>placas base</span> deben tener instalado
-            <span>4 componentes basicos</span>: Fuente de alimentación, El
-            procesador, La memoria RAM, Las unidades de almacenamiento.
-          </p>
-
-          <h2 id="relacion" class="fs-5 pt-3">
-            Relación entre el hardware y software:
-          </h2>
-          <p class="fs-6 pt-2">
-            La <span>relación</span> entre <span>hardware</span> y
-            <span>software</span> está bastante marcada en la era moderna, pues
-            Para que el hardware funcione, es necesario que se le indique cómo
-            hacerlol y de esto se ocupa el software, el conjunto de componentes
-            <span>intangibles</span> de una computadora. Forman parte del
-            software tanto el sistema operativo y los programas como los datos
-            que precisamente que procesa el CPU.
-          </p>
-          <div class="m-4 d-flex justify-content-center">
-            <img
-              class="img-fluid rounded w-75"
-              src="images/hys.png"
-              alt="placa"
-            />
-          </div>
-          <p class="fs-6">
-            El hardware y software son, por lo tanto, aspectos de la computadora
-            que operan de modo <span>conjunto</span>, ya que el primero sostiene
-            al segundo y este último permite controlar el modo en que opera y el
-            objetivo del primero.
-          </p>
-          <p class="fs-6">
-            Hemos dicho que esta relación está bastante marcada en la era actual
-            debido a que
-            <span
-              >no hemos llegado al punto de que uno funcione sin el otro</span
-            >, dado que por los momentos es algo que sólo podemos contemplar
-            como una posibilidad sólo en un futuro lejano.
-          </p>
+          <!-- Introduccion al hardware -->
+          <article>
+            <h1 class="fs-4 pt-3 text-center">Hardware</h1>
+            <p class="fs-6 pt-2">
+              A continuación te explicaremos qué es el hardware, ejemplos y su
+              relación con el software:
+            </p>
+            <div class="m-4 d-flex justify-content-center">
+              <img
+                class="img-fluid rounded w-75"
+                src="images/Hardware.png"
+                alt="hardware"
+              />
+            </div>
+            <h2 class="fs-5">¿Qué es el hardware?:</h2>
+            <p class="fs-6 pt-3">
+              En las áreas de computación e informática, el término
+              <span>hardware</span> se le atribuye a, de manera resumida y en
+              términos básicos, todo lo que constituye únicamente a la
+              <span>parte física y tangible</span> de una computadora o sistema
+              informático, tanto externa como interna.
+            </p>
+            <div class="m-4 d-flex justify-content-center">
+              <img
+                class="img-fluid rounded w-75"
+                src="images/Que-es.jpg"
+                alt="hardware"
+              />
+            </div>
+            <p class="fs-6">
+              En español, podríamos utilizar términos como: <span>equipo</span>,
+              <span>equipo informático</span>, <span>componentes</span>, entre
+              otros. Aunque, en el contexto de la informática, se considera una
+              buena costumbre utilizar el término en inglés "hardware" para
+              referirnos a
+              <span
+                >todos los componentes que construyen la estructura física</span
+              >
+              de un ordenador.
+            </p>
+          </article>
+          <!-- Ejemplos de hardware -->
+          <article>
+            <h2 id="partes" class="fs-5 pt-3">Ejemplos de hardware:</h2>
+            <p class="fs-6 pt-2">
+              Algunos <span>ejemplos de hardware</span> que vas a poder
+              encontrar en los ordenadores modernos son:
+            </p>
+            <!-- Procesador -->
+            <article>
+              <h3 class="fs-5 pt-3">▸ Procesador:</h3>
+              <p class="fs-6 pt-2">
+                El <span>procesador</span> o <span>CPU</span>, se trata de un
+                chip encapsulado, y, se le puede considerar el
+                <span>cerebro</span> de la máquina, dado que procesa todo lo que
+                ocurre en la computadora y ejecuta todas sus acciones. Por esto
+                mismo, podemos decir, sin temor a equivocarnos, que el
+                procesador es el componente <span>más importante</span> del
+                computador.
+              </p>
+              <div class="m-4 d-flex justify-content-center">
+                <img
+                  class="img-fluid rounded w-50"
+                  src="images/Procesador.png"
+                  alt="procesador"
+                />
+              </div>
+              <p class="fs-6">
+                En caso de que no haya quedado claro: básicamente, cuanto más
+                rápido sea el procesador, a mayor velocidad se ejecutarán las
+                órdenes y acciones que se le indiquen a a la computadora.
+              </p>
+              <p class="fs-6 pt-2">
+                Las compañías AMD e Intel son las principales fabricantes de
+                procesadores.
+              </p>
+            </article>
+            <!-- Memoria ram -->
+            <article>
+              <h3 class="fs-5 pt-3">▸ Memoria RAM:</h3>
+              <p class="fs-6 pt-2">
+                La <span>memoria RAM</span> es una memoria formada por un
+                conjunto de chips que almacenan informacióna a la cual el
+                procesador puede acceder rápidamente. Las siglas "RAM"
+                significan “<span>Random Access Memory</span>” traducido al
+                español es “<span>Memoria de Acceso Aleatorio</span>”.
+              </p>
+              <div class="m-4 d-flex justify-content-center">
+                <img
+                  class="img-fluid rounded w-75"
+                  src="images/hardware/memoria_ram.jpg"
+                  alt="RAM"
+                />
+              </div>
+              <p class="fs-6">
+                Se le denomina "memoria de acceso aleatorio" porque puede
+                <span
+                  >leer o escribir información ubicada en cualquier
+                  posición</span
+                >, sin necesidad de seguir un orden correlativo.
+              </p>
+              <p class="fs-6 pt-2">
+                Finalmente, la información de la RAM permanece almacenada
+                <span>temporalmente</span>, es decir, que se pierde cuando se
+                apaga el equipo.
+              </p>
+            </article>
+            <!-- Disco duro -->
+            <article>
+              <h3 class="fs-5 pt-3">▸ Unidad de almacenamiento:</h3>
+              <p class="fs-6 pt-2">
+                La <span>unidad de almacenamiento</span> es, valga la
+                redundancia, el dispositivo que
+                <span>almacena información</span>. A diferencia de la memoria
+                RAM, la unidad de almacenamiento guarda la información
+                <span>permanentemente</span>.
+              </p>
+              <div class="m-4 d-flex justify-content-center">
+                <img
+                  class="img-fluid rounded w-75"
+                  src="images/hardware/disco_duro.jpg"
+                  alt="almacenamiento"
+                />
+              </div>
+              <p class="fs-6">
+                Existen dos tipos de unidades de almacenamiento: los discos
+                duros (HDD, que viene de Hard Disk Drive) y las unidades de
+                estado sólido (SSD, que viene de Solid State Drive).
+              </p>
+            </article>
+            <!-- Fuente de poder -->
+            <article>
+              <h3 class="fs-5 pt-3">▸ Fuente de poder:</h3>
+              <p class="fs-6 pt-2">
+                La <span>fuente de poder</span>,
+                <span>fuente de alimentación</span> o
+                <span>fuente de energía</span> se encarga de recibir la
+                corriente eléctrica alterna para transformarla en corriente
+                continua, y así alimentar a los demás componentes internos de la
+                computadora.
+              </p>
+              <div class="m-4 d-flex justify-content-center">
+                <img
+                  class="img-fluid rounded w-75"
+                  src="images/hardware/fuente_de_poder.jpg"
+                  alt="fuente"
+                />
+              </div>
+              <p class="fs-6">
+                La fuente se ocupa, además, de
+                <span>filtrar y distribuir el voltaje</span> que precisan los
+                dispositivos para funcionar, ya que no todos requieren la misma
+                cantidad de voltios.
+              </p>
+            </article>
+            <!-- Placa base -->
+            <article>
+              <h3 class="fs-5 pt-3">▸ Placa base:</h3>
+              <p class="fs-6 pt-2">
+                La <span>placa base</span>, <span>tarjeta madre</span> o
+                <span>placa madre</span>, es una
+                <span>tarjeta de circuito impreso</span> a la cual se conectan,
+                mediantes ranuras, los componentes de una computadora.
+              </p>
+              <div class="m-4 d-flex justify-content-center">
+                <img
+                  class="img-fluid rounded w-75"
+                  src="images/hardware/tarjeta_madre.jpg"
+                  alt="placa"
+                />
+              </div>
+              <p class="fs-6 pt-2">
+                La <span>placa base</span> se encarga de establecer una
+                comunicación entre los componentes de un
+                ordenador(<span>CPU</span>, <span>RAM</span>,
+                <span>tarjeta gráfica</span>) y además los periféricos (mouse,
+                teclado, monitor), etc.
+              </p>
+              <p class="fs-6 pt-2">
+                En general, las <span>placas base</span> deben tener instalado
+                <span>4 componentes basicos</span>: Fuente de alimentación, El
+                procesador, La memoria RAM, Las unidades de almacenamiento.
+              </p>
+            </article>
+          </article>
+          <!-- Relacion hardware y software -->
+          <article>
+            <h2 id="relacion" class="fs-5 pt-3">
+              Relación entre el hardware y software:
+            </h2>
+            <p class="fs-6 pt-2">
+              La <span>relación</span> entre <span>hardware</span> y
+              <span>software</span> está bastante marcada en la era moderna,
+              pues Para que el hardware funcione, es necesario que se le indique
+              cómo hacerlol y de esto se ocupa el software, el conjunto de
+              componentes <span>intangibles</span> de una computadora. Forman
+              parte del software tanto el sistema operativo y los programas como
+              los datos que precisamente que procesa el CPU.
+            </p>
+            <div class="m-4 d-flex justify-content-center">
+              <img
+                class="img-fluid rounded w-75"
+                src="images/hys.png"
+                alt="placa"
+              />
+            </div>
+            <p class="fs-6">
+              El hardware y software son, por lo tanto, aspectos de la
+              computadora que operan de modo <span>conjunto</span>, ya que el
+              primero sostiene al segundo y este último permite controlar el
+              modo en que opera y el objetivo del primero.
+            </p>
+            <p class="fs-6">
+              Hemos dicho que esta relación está bastante marcada en la era
+              actual debido a que
+              <span
+                >no hemos llegado al punto de que uno funcione sin el otro</span
+              >, dado que por los momentos es algo que sólo podemos contemplar
+              como una posibilidad sólo en un futuro lejano.
+            </p>
+          </article>
         </section>
+        <!-- Columna derecha -->
         <div id="extra" class="col-12 col-md-3 mt-2 mt-md-0 p-3 rounded">
           <div class="sticky-md-top">
             <aside class="justify-content-center">
@@ -307,7 +341,11 @@
               <p class="fs-5 mt-3 text-center">Te puede interesar</p>
               <div class="col-12">
                 <div class="card m-2 m-md-3 border-0 bg-transparent">
-                  <img class="card-img" src="images/card_5.jpg" alt="ph" />
+                  <img
+                    class="card-img"
+                    src="images/hardware/card.jpg"
+                    alt="ph"
+                  />
                   <div
                     class="card-img-overlay d-flex justify-content-center align-items-end p-0"
                   >
@@ -332,6 +370,7 @@
         </div>
       </div>
     </main>
+    <!-- Footer (Informacion del equipo, etc) -->
     <footer class="container-fluid p-0 fs-6 text-end">
       © Hextech Studios, 2022
       <br />
@@ -341,6 +380,7 @@
       <br />
       Jeremi Rodriguez – V-31.890.805
     </footer>
+    <!-- JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
