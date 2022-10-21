@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Mantenimiento Preventivo</title>
   </head>
+  <!-- Body (cuerpo de toda la pagina) -->
   <body>
+    <!-- Header (barra de navegacion) -->
     <header>
       <nav id="menu" class="navbar navbar-expand-md p-0 bg-transparent">
         <div class="container-fluid">
@@ -83,18 +85,23 @@
         </div>
       </nav>
     </header>
+    <!-- Imagen principal -->
     <div class="d-flex m-4 mt-2 mt-md-0 mb-0 justify-content-center">
       <img
         class="img-fluid col-12 col-md-8 p-0 rounded-3"
-        src="images/correctivo_0.jpg"
+        src="images/preventivo/principal.jpg"
         alt="Mantenimiento"
       />
     </div>
+    <!-- Main (todo el contenido de la pagina) -->
     <main class="container-fluid p-0">
+      <!-- Row (Divisor por columnas) -->
       <div class="row m-4 mt-2 mt-md-3 justify-content-center">
+        <!-- Contenido en general -->
         <section id="contenido" class="col-12 col-md-7 p-3 rounded">
-          <h1 class="fs-4 pt-3">Mantenimiento Preventivo</h1>
+          <!-- Introduccion preventivo -->
           <article>
+            <h1 class="fs-4 pt-3">Mantenimiento Preventivo</h1>
             <p class="fs-6 pt-3">
               El <span>mantenimiento preventivo</span> en la
               <span>informatica</span> trata de revisar los ordenadores para
@@ -106,7 +113,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_8.jpg"
+                src="images/preventivo/introduccion.jpg"
                 alt="hardware"
               />
             </div>
@@ -117,7 +124,12 @@
               manera, podemos estar seguros que realizaremos un
               <span>mantenimiento preventivo correctamente</span>.
             </p>
-            <h2 id="pasos_preventivo" class="fs-5 pt-3">Pasos</h2>
+          </article>
+          <!-- Pasos mantenimiento preventivo -->
+          <article>
+            <h2 id="pasos_preventivo" class="fs-5 pt-3">
+              Pasos del Mantenimiento Preventivo
+            </h2>
             <p class="fs-6 pt-3">
               Primeramente se necesita hacer una
               <span>evaluación general</span> de el estado de el equipo actual,
@@ -128,7 +140,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_1.jpg"
+                src="images/preventivo/pasos_1.jpg"
                 alt="hardware"
               />
             </div>
@@ -142,7 +154,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_2.jpg"
+                src="images/preventivo/pasos_2.jpg"
                 alt="hardware"
               />
             </div>
@@ -158,7 +170,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_3.png"
+                src="images/preventivo/pasos_3.png"
                 alt="hardware"
               />
             </div>
@@ -171,7 +183,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_4.jpg"
+                src="images/preventivo/pasos_4.jpg"
                 alt="hardware"
               />
             </div>
@@ -192,7 +204,7 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_6.jpg"
+                src="images/preventivo/pasos_5.jpg"
                 alt="hardware"
               />
             </div>
@@ -204,6 +216,9 @@
               y revisión de virus para el
               <span>optimo funcionamiento del equipo</span>.
             </p>
+          </article>
+          <!-- Herramientas -->
+          <article>
             <h2 class="fs-5 pt-3">Herramientas</h2>
             <p class="fs-6 pt-3">
               Las herramientas necesarias para realizar el
@@ -220,12 +235,13 @@
             <div class="m-4 d-flex justify-content-center">
               <img
                 class="img-fluid rounded w-75"
-                src="images/correctivo_7.jpg"
+                src="images/preventivo/herramientas.jpg"
                 alt="hardware"
               />
             </div>
           </article>
         </section>
+        <!-- Columna derecha -->
         <div id="extra" class="col-12 col-md-3 mt-2 mt-md-0 p-3 rounded">
           <div class="sticky-md-top">
             <aside class="justify-content-center">
@@ -243,7 +259,11 @@
               <p class="fs-5 mt-3 text-center">Te puede interesar</p>
               <div class="col-12">
                 <div class="card m-2 m-md-3 border-0 bg-transparent">
-                  <img class="card-img" src="images/card_2.jpg" alt="ph" />
+                  <img
+                    class="card-img"
+                    src="images/preventivo/card.jpg"
+                    alt="ph"
+                  />
                   <div
                     class="card-img-overlay d-flex justify-content-center align-items-end p-0"
                   >
@@ -268,6 +288,7 @@
         </div>
       </div>
     </main>
+    <!-- Footer (Informacion del equipo, etc) -->
     <footer class="container-fluid p-0 fs-6 text-center">
       © Hextech Studios, 2022
       <br />
@@ -277,6 +298,7 @@
       <br />
       Jeremi Rodriguez – V-31.890.805
     </footer>
+    <!-- JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
