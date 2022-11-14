@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/registro.css" />
+    <link rel="stylesheet" href="fonts/style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="" class="formulario" id="formulario">
+        <!-- Grupo: Usuario -->
+        <div class="formularioGrupo" id="grupoUsuario">
+          <label for="usuario" class="formularioLabel">Usuario</label>
+          <div class="formularioGrupoInput">
+            <input
+              type="text"
+              class="formularioInput"
+              name="usuario"
+              id="usuario"
+              placeholder="Ejemplo: juanito123"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">
+            El Usuario tiene que ser de 4 a 16 digitos y solo puede contener
+            numero, letra y guion bajo
+          </p>
+        </div>
+        <!-- Grupo: Nombre -->
+        <div class="formularioGrupo" id="grupoNombre">
+          <label for="nombre" class="formularioLabel">Nombre</label>
+          <div class="formularioGrupoInput">
+            <input
+              type="text"
+              class="formularioInput"
+              name="nombre"
+              id="nombre"
+              placeholder="Ejemplo: Juan Pérez"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">
+            El Nombre tiene que ser de 4 a 16 digitos y solo puede contener
+            numero, letra y guion bajo
+          </p>
+        </div>
+        <!-- Grupo: Contraseña -->
+        <div class="formularioGrupo" id="grupoPassword">
+          <label for="password" class="formularioLabel">Contraseña</label>
+          <div class="formularioGrupoInput">
+            <input
+              type="password"
+              class="formularioInput"
+              name="password"
+              id="password"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">
+            La contraseña tiene que ser de 4 a 12 digitos
+          </p>
+        </div>
+        <!-- Grupo: Contraseña2 -->
+        <div class="formularioGrupo" id="grupoPassword2">
+          <label for="password2" class="formularioLabel"
+            >Repetir Contraseña</label
+          >
+          <div class="formularioGrupoInput">
+            <input
+              type="password"
+              class="formularioInput"
+              name="password2"
+              id="password2"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">Las contraseñas deben ser iguales</p>
+        </div>
+        <!-- Grupo: Correo -->
+        <div class="formularioGrupo" id="grupoCorreo">
+          <label for="correo" class="formularioLabel">Correo Electronico</label>
+          <div class="formularioGrupoInput">
+            <input
+              type="email"
+              class="formularioInput"
+              name="correo"
+              id="correo"
+              placeholder="ejemplo@dominio.com"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">
+            El Correo solo puede contener letras, numeros, puntos, guiones y
+            guion bajo
+          </p>
+        </div>
+        <!-- Grupo: Telefono -->
+        <div class="formularioGrupo" id="grupoTelefono">
+          <label for="telefono" class="formularioLabel">Telefono</label>
+          <div class="formularioGrupoInput">
+            <input
+              type="text"
+              class="formularioInput"
+              name="telefono"
+              id="telefono"
+              placeholder="04161187485"
+            />
+            <i class="formularioValidacionEstado">x</i>
+          </div>
+          <p class="formularioInputError">
+            El Telefono solo puede contener numeros y el maximo son 14 digitos
+          </p>
+        </div>
+        <!-- Grupo Sexo -->
+        <div class="formularioGrupoSexo" id="grupoSexo">
+          <label class="formularioLabel">
+            <input
+              class="formularioSexoHombre"
+              type="radio"
+              name="sexo"
+              id="hombre"
+            />
+            Hombre
+          </label>
+          <label class="formularioLabel">
+            <input
+              class="formularioSexoMujer"
+              type="radio"
+              name="sexo"
+              id="mujer"
+            />
+            Mujer
+          </label>
+          <label class="formularioLabel">
+            <input
+              class="formularioSexoAlien"
+              type="radio"
+              name="sexo"
+              id="alien"
+            />
+            Alien
+          </label>
+        </div>
+        <!-- Grupo Edad -->
+        <div class="formularioGrupoEdad" id="grupoEdad">
+          <label class="formularioLabel">
+            Edad
+            <input
+              class="formularioEdad"
+              type="range"
+              name="edad"
+              id="edad"
+              min="0"
+              max="99"
+              value="0"
+              oninput="this.nextElementSibling.value = this.value"
+            />
+            <output>0</output>
+          </label>
+        </div>
+        <!-- Grupo terminos y condiciones -->
+        <div class="formularioGrupoTerminos" id="grupoTerminos">
+          <label class="formularioLabel">
+            <input
+              class="formularioTerminos"
+              type="checkbox"
+              name="terminos"
+              id="terminos"
+            />
+            Acepto los Términos y Condiciones.
+          </label>
+        </div>
+        <!-- Boton enviar -->
+        <div class="formularioGrupo formularioGrupoBtnEnviar">
+          <button type="submit" class="formularioBtn">Enviar</button>
+        </div>
+        <!-- Boton volver -->
+        <div class="formularioGrupo formularioGrupoBtnVolver">
+          <button
+            type="button"
+            class="formularioBtnVolver"
+            id="formularioBtnVolver"
+          >
+            Volver
+          </button>
+        </div>
+        <!-- Mensaje error -->
+        <div class="formularioMensaje" id="formularioMensaje">
+          <p>
+            <i class="icon-close"></i> Error: Por favor rellene el formulario
+            correctamente.
+          </p>
+        </div>
+        <!-- Mensaje de exito -->
+        <p class="formularioMensajeExito" id="formularioMensajeExito">
+          <i class="icon-check"></i> ¡El formulario se envio exitosamente!
+        </p>
+      </form>
+    </main>
+    <footer class="footer">
+      © Hextech Studios, 2022
+      <br />
+      Raúl Rangel – V-27.462.694
+      <br />
+      Anthonny Cárdenas – V-30.817.468
+      <br />
+      Jeremi Rodríguez – V-31.890.805
+      <br />
+      Alejandra Chacón - V-26.892.150
+    </footer>
+    <script src="js/formulario.js"></script>
+  </body>
+</html>

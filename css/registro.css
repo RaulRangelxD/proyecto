@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgba(15, 31, 63);
+  background-image: url("/Images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+.formulario {
+  /* Trabajar con columnas */
+  display: grid;
+  /* agregar dos columnas */
+  grid-template-columns: 1fr 1fr;
+  /* espaciado entre cada elemento */
+  gap: 20px;
+  background-color: rgba(28, 27, 49, 0.5);
+  padding: 2%;
+  border: 3px solid #522775;
+  border-radius: 10px;
+}
+.formularioLabel {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+.formularioGrupoSexo .formularioLabel {
+  font-size: 18px;
+  display: inline;
+}
+.formularioGrupoEdad output {
+  font-size: 18px;
+}
+.formularioInput {
+  width: 100%;
+  background: #fff;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.formularioInput:focus {
+  border: 3px solid #522775;
+  outline: none;
+}
+.formularioInputError {
+  display: none;
+  margin: 16px;
+  font-size: 15px;
+}
+.formularioInputError-activo {
+  display: block;
+}
+.formularioValidacionEstado {
+  display: none;
+}
+.formularioValidacionEstado-activo {
+  display: block;
+}
+.formularioMensaje {
+  display: none;
+}
+.formularioMensaje p {
+  background: rgba(255, 0, 0, 0.5);
+  padding: 2%;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+}
+.formularioMensaje-activo {
+  display: block;
+}
+.formularioMensajeExito {
+  display: none;
+  background: rgba(0, 255, 0, 0.5);
+  padding: 2%;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 255, 0, 0.5);
+}
+.formularioMensajeExito-activo {
+  display: block;
+}
+.formularioEdad {
+  justify-self: center;
+  width: 100%;
+}
+.formularioGrupoTerminos .formularioLabel {
+  font-size: 18px;
+}
+
+.formularioGrupoTerminos,
+.formularioMensaje,
+.formularioGrupoBtnEnviar,
+.formularioGrupoBtnVolver,
+.formularioMensajeExito {
+  /* estilo para que ocupe 2 columnas */
+  grid-column: span 2;
+}
+.formularioGrupoSexo {
+  align-self: center;
+}
+.formularioMensaje,
+.formularioGrupoBtnEnviar,
+.formularioGrupoBtnVolver,
+.formularioMensajeExito {
+  /* estilo para centrar */
+  justify-self: center;
+}
+.formularioBtn,
+.formularioBtnVolver {
+  height: 45px;
+  width: 90px;
+  background: #52277585;
+  border-radius: 10px;
+  border: 3px solid #522775;
+  cursor: pointer;
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+}
+.formularioBtn:hover,
+.formularioBtnVolver:hover {
+  color: rgb(0, 0, 0);
+  background: #ffffff85;
+  border: 3px solid #ffffff;
+}
+.footer {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  background: rgba(28, 27, 49, 0.5);
+  border: 3px solid #522775;
+  border-radius: 10px;
+}
