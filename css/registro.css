@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background: rgba(15, 31, 63);
   background-image: url("/Images/background.png");
