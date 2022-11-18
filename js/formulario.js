@@ -151,12 +151,12 @@ formulario.addEventListener("submit", (e) => {
       document
         .getElementById("formularioMensajeExito")
         .classList.remove("formularioMensajeExito-activo");
+      history.back();
     }, 5000);
     // desactivar mensaje de error
     document
       .getElementById("formularioMensaje")
       .classList.remove("formularioMensaje-activo");
-    history.back();
   } else {
     // activar mensaje de error
     document
