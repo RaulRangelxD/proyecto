@@ -6,7 +6,7 @@
 }
 body {
   background: rgba(15, 31, 63);
-  background-image: url("/Images/background.png");
+  background-image: url("../images/background.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
