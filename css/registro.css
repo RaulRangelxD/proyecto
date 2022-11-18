@@ -5,8 +5,8 @@
   display: none;
 }
 body {
-  background: rgba(15, 31, 63);
-  background-image: url("../images/background.png");
+  background-image: url("../images/registro/background.png");
+  background-color: rgba(15, 31, 63);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
