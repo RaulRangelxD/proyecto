@@ -17,6 +17,7 @@ const campos = {
   Usuario: false,
   Nombre: false,
   Password: false,
+  Password2: false,
   Correo: false,
   Telefono: false,
 };
@@ -100,14 +101,14 @@ const validarPassword2 = () => {
       .querySelector(`#grupoPassword2 .formularioInputError`)
       .classList.remove("formularioInputError-activo");
     // colocar campo en verdadero
-    campos["password"] = true;
+    campos["Password2"] = true;
   } else {
     // añadir modificador cuando el valor es incorreto
     document
       .querySelector(`#grupoPassword2 .formularioInputError`)
       .classList.add("formularioInputError-activo");
     // colocar campo en falso
-    campos["password"] = false;
+    campos["Password2"] = false;
   }
 };
 // detectar inputs
@@ -134,6 +135,7 @@ formulario.addEventListener("submit", (e) => {
     campos.Usuario &&
     campos.Nombre &&
     campos.Password &&
+    campos.Password2 &&
     campos.Correo &&
     campos.Telefono &&
     terminos.checked &&
