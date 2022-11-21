@@ -164,3 +164,8 @@ main {
     grid-column: span 2;
   }
 }
+@media screen and (max-width: 390px) {
+  .formularioGrupoSexo label {
+    grid-column: span 2;
+  }
+}
