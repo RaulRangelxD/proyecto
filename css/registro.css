@@ -25,7 +25,7 @@ main {
   /* Trabajar con columnas */
   display: grid;
   /* agregar dos columnas */
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   /* espaciado entre cada elemento */
   gap: 20px;
   background-color: rgba(28, 27, 49, 0.5);
@@ -114,7 +114,9 @@ main {
   grid-column: span 2;
 }
 .formularioGrupoSexo {
+  display: grid;
   align-self: center;
+  grid-template-columns: repeat(2, 1fr);
 }
 .formularioMensaje,
 .formularioGrupoBtnEnviar,
@@ -154,4 +156,11 @@ main {
   background: rgba(28, 27, 49, 0.5);
   border: 3px solid #522775;
   border-radius: 10px;
+}
+@media screen and (max-width: 675px) {
+  .formularioGrupo,
+  .formularioGrupoSexo,
+  .formularioGrupoEdad {
+    grid-column: span 2;
+  }
 }

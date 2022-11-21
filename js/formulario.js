@@ -127,7 +127,6 @@ formulario.addEventListener("submit", (e) => {
   // obtener valor de el radio
   const radio1 = document.getElementById("hombre");
   const radio2 = document.getElementById("mujer");
-  const radio3 = document.getElementById("alien");
   // obtener valor de la edad
   const edad = parseInt(document.getElementById("edad").value);
   // comprobar que todos los campos esten correctamente llenados
@@ -140,7 +139,7 @@ formulario.addEventListener("submit", (e) => {
     campos.Telefono &&
     terminos.checked &&
     edad >= 1 &&
-    (radio1.checked || radio2.checked || radio3.checked)
+    (radio1.checked || radio2.checked)
   ) {
     // reiniciar el formulario
     formulario.reset();
