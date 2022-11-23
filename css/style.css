@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* Quitar valores por defecto */
 * {
   margin: 0px;
@@ -12,7 +12,7 @@
 }
 /* Paramentros en general */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-image: url("../images/bg.png");
   background-color: rgba(15, 31, 63);
   background-position: center;
@@ -100,4 +100,5 @@ body {
 footer {
   color: rgb(231, 231, 231);
   background-color: rgb(28, 27, 49);
+  font-weight: bold;
 }
